@@ -74,11 +74,11 @@ with st.sidebar:
         st.session_state["messages"] = []
         st.experimental_rerun()
     st.markdown("---")
-    st.markdown("**Tip:** Edit `knowledge_base.csv` to customize the bot's answers and then **Rerun** the app.")
+    st.markdown("hi friend im under developement.")
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = [
-        {"role": "assistant", "content": "Hi! I'm a tiny chatbot. Ask me anything about this demo project."}
+        {"role": "assistant", "content": "Hi! I'm a tiny chatbot created by vignesh. Ask me anything about this demo project."}
     ]
 
 for m in st.session_state["messages"]:
