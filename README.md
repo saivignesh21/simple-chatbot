@@ -20,7 +20,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Open the URL that Streamlit prints (usually http://localhost:8501).
+Open the URL that Streamlit prints (usually https://simple-chatbot-7app4b72tznyzhberegujff.streamlit.app/).
 
 ## 🧠 Customize the knowledge base
 
